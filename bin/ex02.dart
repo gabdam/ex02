@@ -16,7 +16,7 @@ void main() {
   print(220*260/convertrate);
   
   // 4) Vitesse de usain bolt, 100 metres en 9.58 secondes. R = 10.43841336 metres par seconde 
-  var speed = 100/9.58;
-  print("$speed meters per seconds!");
+  var speed = 100/9.58*3.6;
+  print("Usain Bolt cours à une vitesse de $speed km/h!");
 }
 
