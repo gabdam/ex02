@@ -9,7 +9,7 @@ void main() {
   // 2) Calculer un cercle de rayon 10. R = 62.831852 unit²
   var pi = 3.1415926;
   var radius = 10;
-  print(2*pi*radius);
+  print(pi*radius*radius);
 
   // 3) Convertir feet en acres. R = 1.31313 acres
   var convertrate = 43560; // valeur de 1 acre en pied
