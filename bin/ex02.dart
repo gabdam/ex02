@@ -18,7 +18,9 @@ void main() {
   print("3) L'aire du terrain est de ${long*larg/convertrate} acres");
   
   // 4) Vitesse de usain bolt, 100 metres en 9.58 secondes. R = 10.43841336 metres par seconde 
-  var speed = 100/9.58*3.6;
-  print("4) Usain Bolt cours à une vitesse de $speed km/h!");
+  var distance = 100;
+  var time = 9.58;
+  var kmh = 3.6; // convertir m/s en km/h
+  print("4) Usain Bolt cours à une vitesse de ${distance/time*kmh} km/h!");
 }
 
