@@ -1,10 +1,10 @@
 void main() {
   // 1) Calculer a la main 5-7/8. R = -0.25
   // Le résultat n'est pas le même!  -0.25 et 4.125
-  var x = 5;
-  var y = 7;
-  var z = 8;
-  print(x-y/z);
+  int x = 5;
+  int y = 7;
+  int z = 8;
+  print((x-y)/z);
 
   // 2) Calculer un cercle de rayon 10. R = 62.831852 unit²
   var pi = 3.1415926;
